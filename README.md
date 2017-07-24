@@ -1,6 +1,6 @@
-# Docker Patterns
+# Kubernetes Patterns
 
-This contains the slides for the presentation "Docker Patterns" which is based on [rhuss/docker-reveal](https://github.com/rhuss/docker-reveal) image.
+This contains the slides for the presentation "Kubernetes Patterns" which is based on [rhuss/docker-reveal](https://github.com/rhuss/docker-reveal) image.
 
 It includes a HTML5 Terminal emulation which can be used from within the browser (look for slides named "Demo"). The demo can be find below `/demo` where each directory contains its own README.
 

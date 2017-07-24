@@ -3,7 +3,7 @@ tag="-$(git rev-parse --abbrev-ref HEAD)"
 if [ $tag = "-master" ]; then
   tag=""
 fi
-target="$(pwd)/docker-patterns${tag}.pdf"
+target="$(pwd)/kubernetes-patterns${tag}.pdf"
 echo "Creating ${target}"
 echo "(Don't forget to start the presentation before)"
 pushd ../tools/decktape
