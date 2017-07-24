@@ -1,0 +1,170 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+  -webkit-text-size-adjust: none;
+}
+
+/*selection color*/
+pre code::selection,
+pre code span::selection {
+	background: #373b41;
+}
+pre code::-moz-selection,
+pre code span::-moz-selection {
+	background: #373b41;
+}
+
+/*foreground color*/
+pre code,
+pre .setting .value,
+pre .expression .variable,
+pre .expression .begin-block,
+pre .expression .end-block,
+pre .class .params,
+pre .function .params,
+pre .at_rule .preprocessor {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+pre .title,
+pre .function .title,
+pre .keyword .common,
+pre .class .title,
+pre .decorator,
+pre .tag .title,
+pre .header,
+pre .sub,
+pre .function {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+pre .comment,
+pre .javadoc,
+pre .output .value,
+pre .pi,
+pre .shebang,
+pre .doctype {
+  color: #707880;
+}
+
+/*color: fg_red*/
+pre .number,
+pre .symbol,
+pre .literal,
+pre .deletion,
+pre .link_url,
+pre .symbol .string,
+pre .argument,
+pre .hexcolor,
+pre .input .prompt,
+pre .char {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+pre .string,
+pre .special,
+pre .javadoctag,
+pre .addition,
+pre .important,
+pre .tag .value,
+pre .at.rule .keyword,
+pre .regexp,
+pre .attr_selector {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+pre .variable,
+pre .property,
+pre .envar,
+pre .code,
+pre .expression,
+pre .localvars,
+pre .id,
+pre .variable .filter,
+pre .variable .filter .keyword,
+pre .template_tag .filter .keyword {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+pre .statement,
+pre .label,
+pre .keyword,
+pre .xmlDocTag,
+pre .function .keyword,
+pre .chunk,
+pre .cdata,
+pre .link_label,
+pre .bullet,
+pre .class .keyword,
+pre .smartquote,
+pre .method,
+pre .list .title,
+pre .tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+pre .pseudo,
+pre .exception,
+pre .annotation,
+pre .subst,
+pre .change,
+pre .cbracket,
+pre .operator,
+pre .horizontal_rule,
+pre .preprocessor .keyword,
+pre .typedef,
+pre .template_tag,
+pre .variable,
+pre .variable .filter .argument,
+pre .at_rule,
+pre .at_rule .string,
+pre .at_rule .keyword {
+  color: #8abeb7;
+}
+
+
+/*color: fg_orange*/
+pre .type,
+pre .typename,
+pre .inheritance .parent,
+pre .constant,
+pre .built_in,
+pre .setting,
+pre .structure,
+pre .link_reference,
+pre .attribute,
+pre .blockquote,
+pre .quoted,
+pre .class,
+pre .header {
+  color: #de935f;
+}
+
+pre .emphasis
+{
+  font-style: italic;
+}
+
+pre .strong
+{
+  font-weight: bold;
+}
+
+
+
+

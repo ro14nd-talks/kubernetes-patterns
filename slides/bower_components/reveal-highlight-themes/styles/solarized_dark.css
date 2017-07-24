@@ -1,0 +1,108 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+  -webkit-text-size-adjust: none;
+}
+
+pre .comment,
+pre .diff .header,
+pre .doctype,
+pre .pi,
+pre .lisp .string,
+pre .javadoc {
+  color: #586e75;
+}
+
+/* Solarized Green */
+pre .keyword,
+pre .winutils,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .request,
+pre .status,
+pre .nginx .title {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .rules .value,
+pre .phpdoc,
+pre .dartdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor,
+pre .link_url {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+pre .title,
+pre .localvars,
+pre .chunk,
+pre .decorator,
+pre .built_in,
+pre .identifier,
+pre .vhdl .literal,
+pre .id,
+pre .css .function {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+pre .attribute,
+pre .variable,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .type,
+pre .link_reference {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+pre .preprocessor,
+pre .preprocessor .keyword,
+pre .pragma,
+pre .shebang,
+pre .symbol,
+pre .symbol .string,
+pre .diff .change,
+pre .special,
+pre .attr_selector,
+pre .subst,
+pre .cdata,
+pre .css .pseudo,
+pre .header {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+pre .deletion,
+pre .important {
+  color: #dc322f;
+}
+
+/* Solarized Violet */
+pre .link_label {
+  color: #6c71c4;
+}
+
+pre .tex .formula {
+  background: #073642;
+}

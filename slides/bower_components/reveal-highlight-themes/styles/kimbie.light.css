@@ -1,0 +1,96 @@
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+pre .comment,
+pre .title {
+  color: #a57a4c;
+}
+
+/* Kimbie Red */
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+pre .ruby .class .title,
+pre .css .rules .attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+  color: #889b4a;
+}
+
+/* Kimbie Aqua */
+pre .css .hexcolor {
+  color: #088649;
+}
+
+/* Kimbie Blue */
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #8ab1b0;
+}
+
+/* Kimbie Purple */
+pre .keyword,
+pre .javascript .function {
+  color: #98676a;
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  background: #fbebd4;
+  color: #84613d;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

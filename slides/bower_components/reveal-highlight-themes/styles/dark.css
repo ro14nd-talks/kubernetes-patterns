@@ -1,0 +1,104 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+  -webkit-text-size-adjust: none;
+}
+
+pre .keyword,
+pre .literal,
+pre .change,
+pre .winutils,
+pre .flow,
+pre .nginx .title,
+pre .tex .special {
+  color: white;
+}
+
+pre code,
+pre .subst {
+  color: #ddd;
+}
+
+pre .string,
+pre .title,
+pre .type,
+pre .ini .title,
+pre .tag .value,
+pre .css .rules .value,
+pre .preprocessor,
+pre .pragma,
+pre .ruby .symbol,
+pre .ruby .symbol .string,
+pre .ruby .class .parent,
+pre .built_in,
+pre .django .template_tag,
+pre .django .variable,
+pre .smalltalk .class,
+pre .javadoc,
+pre .ruby .string,
+pre .django .filter .argument,
+pre .smalltalk .localvars,
+pre .smalltalk .array,
+pre .attr_selector,
+pre .pseudo,
+pre .addition,
+pre .stream,
+pre .envvar,
+pre .apache .tag,
+pre .apache .cbracket,
+pre .tex .command,
+pre .prompt,
+pre .coffeescript .attribute {
+  color: #d88;
+}
+
+pre .comment,
+pre .annotation,
+pre .decorator,
+pre .pi,
+pre .doctype,
+pre .deletion,
+pre .shebang,
+pre .apache .sqbracket,
+pre .tex .formula {
+  color: #777;
+}
+
+pre .keyword,
+pre .literal,
+pre .title,
+pre .css .id,
+pre .phpdoc,
+pre .dartdoc,
+pre .type,
+pre .vbscript .built_in,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .diff .header,
+pre .chunk,
+pre .winutils,
+pre .bash .variable,
+pre .apache .tag,
+pre .tex .special,
+pre .request,
+pre .status {
+  font-weight: bold;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,95 @@
+/*
+    Paraíso (light)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+pre .comment,
+pre .title {
+  color: #776e71;
+}
+
+/* Paraíso Red */
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+pre .ruby .class .title,
+pre .css .rules .attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+  color: #48b685;
+}
+
+/* Paraíso Aqua */
+pre .css .hexcolor {
+  color: #5bc4bf;
+}
+
+/* Paraíso Blue */
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #06b6ef;
+}
+
+/* Paraíso Purple */
+pre .keyword,
+pre .javascript .function {
+  color: #815ba4;
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  background: #e7e9db;
+  color: #4f424c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "docker-patterns",
+  "version": "0.0.1",
+  "dependencies": {
+    "reveal.js": "~3.3.0",
+    "reveal.js-menu" : "~0.7.2"
+  }
+}

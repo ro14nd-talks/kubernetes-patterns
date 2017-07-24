@@ -1,0 +1,95 @@
+/* Base16 Atelier Dune Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Dune Dark Comment */
+pre .comment,
+pre .title {
+  color: #999580;
+}
+
+/* Atelier Dune Dark Red */
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #d73737;
+}
+
+/* Atelier Dune Dark Orange */
+pre .number,
+pre .preprocessor,
+pre .pragma,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+  color: #b65611;
+}
+
+/* Atelier Dune Dark Yellow */
+pre .ruby .class .title,
+pre .css .rules .attribute {
+  color: #cfb017;
+}
+
+/* Atelier Dune Dark Green */
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+  color: #60ac39;
+}
+
+/* Atelier Dune Dark Aqua */
+pre .css .hexcolor {
+  color: #1fad83;
+}
+
+/* Atelier Dune Dark Blue */
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #6684e1;
+}
+
+/* Atelier Dune Dark Purple */
+pre .keyword,
+pre .javascript .function {
+  color: #b854d4;
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  background: #292824;
+  color: #a6a28c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,148 @@
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reveal ul ul {
+    font-size: 0.8em;
+}
+.reveal ul  {
+    font-size: 2em;
+}
+
+h1.chapter {
+    margin-top: 30%;
+}
+
+div.box {
+    color: white;
+    font-size: 2em;
+    background: #A30000;
+    border: solid 10px #820000;
+    border-radius: 25px;
+    padding: 0.5em;
+    margin: 1.5em 0.5em;
+    text-shadow: 0 0.05em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+div.problem {
+    color: white;
+    font-size: 2.0em;
+    background: #A30000;
+    border: solid 7px #820000;
+    border-radius: 20px;
+    padding: 0.3em;
+    margin: 1.0em 0em;
+    text-shadow: 0 0.05em 0.2em rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+span.highlight {
+    font-weight: bold;
+    text-shadow: 0.15em 0.15em 0.15em rgba(0, 0, 0, 0.4);
+}
+
+.github-dmp img {
+    left: 0;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+}
+
+.defs li {
+    margin-bottom: 0.8em;
+    line-height: 1em;
+}
+
+span.point {
+    font-weight: bold;
+}
+
+span.one {
+    color: #96BFD0;
+}
+
+span.two {
+    color: #C7C68C;
+}
+span.sub-li {
+    font-size: 0.6em;
+    line-height: 0.3em;
+}
+
+.reveal table {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+
+.strike {
+     position: relative;
+ }
+
+.strike:before {
+    border-bottom: 5px solid #AA0000;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+}
+
+div.punchline {
+    margin-top: 0.3em;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.reveal code {
+    line-height: 1.3em
+}
+
+.shadow {
+  -webkit-box-shadow: 10px 10px 16px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -1px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -1px rgba(0,0,0,0.75);
+}
+
+.hljs-attr, .hljs-attribute {
+    color: #E3CEAB
+}
+
+.hljs-_ {
+    color: #8CD0D3
+}
+
+.hljs-number,.hljs-date {
+}
+
+.zoo {
+    position: absolute;
+    width: 200px;
+}
+
+div.foot-url {
+    font-size: 0.9em;
+    position: absolute;
+    bottom: -30px;
+}
+
+div.slide-menu-panel {
+    font-size: 8px;
+}
+
+li.slide-menu-item a {
+    box-shadow: none;
+}
+
+iframe.demo {
+    -webkit-box-shadow: 10px -7px 36px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -7px 36px 3px rgba(0,0,0,0.75);
+    box-shadow: 10px -7px 36px 3px rgba(0,0,0,0.75);
+}
+
+.menu-category {
+/*    font-weight: bold !important; */
+    background-color: #3C3C3C;
+}
+

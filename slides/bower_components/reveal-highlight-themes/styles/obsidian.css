@@ -1,0 +1,153 @@
+/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282b2e;
+  -webkit-text-size-adjust: none;
+}
+
+pre .keyword,
+pre .literal,
+pre .change,
+pre .winutils,
+pre .flow,
+pre .nginx .title,
+pre .css .id,
+pre .tex .special {
+  color: #93c763;
+}
+
+pre .number {
+  color: #ffcd22;
+}
+
+pre code {
+  color: #e0e2e4;
+}
+
+pre .css .tag,
+pre .css .pseudo {
+  color: #d0d2b5;
+}
+
+pre .attribute,
+pre code .constant {
+  color: #668bb0;
+}
+
+pre .xml .attribute {
+  color: #b3b689;
+}
+
+pre .xml .tag .value {
+  color: #e8e2b7;
+}
+
+pre .code,
+pre .class .title,
+pre .header {
+  color: white;
+}
+
+pre .class,
+pre .hexcolor {
+  color: #93c763;
+}
+
+pre .regexp {
+  color: #d39745;
+}
+
+pre .at_rule,
+pre .at_rule .keyword {
+  color: #a082bd;
+}
+
+pre .doctype {
+  color: #557182;
+}
+
+pre .link_url,
+pre .tag,
+pre .tag .title,
+pre .bullet,
+pre .subst,
+pre .emphasis,
+pre .type,
+pre .preprocessor,
+pre .pragma,
+pre .ruby .class .parent,
+pre .built_in,
+pre .django .template_tag,
+pre .django .variable,
+pre .smalltalk .class,
+pre .javadoc,
+pre .django .filter .argument,
+pre .smalltalk .localvars,
+pre .smalltalk .array,
+pre .attr_selector,
+pre .pseudo,
+pre .addition,
+pre .stream,
+pre .envvar,
+pre .apache .tag,
+pre .apache .cbracket,
+pre .tex .command,
+pre .prompt {
+  color: #8cbbad;
+}
+
+pre .string {
+  color: #ec7600;
+}
+
+pre .comment,
+pre .annotation,
+pre .blockquote,
+pre .horizontal_rule,
+pre .decorator,
+pre .pi,
+pre .deletion,
+pre .shebang,
+pre .apache .sqbracket,
+pre .tex .formula {
+  color: #818e96;
+}
+
+pre .keyword,
+pre .literal,
+pre .css .id,
+pre .phpdoc,
+pre .dartdoc,
+pre .title,
+pre .header,
+pre .type,
+pre .vbscript .built_in,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .diff .header,
+pre .chunk,
+pre .winutils,
+pre .bash .variable,
+pre .apache .tag,
+pre .tex .special,
+pre .request,
+pre .at_rule .keyword,
+pre .status {
+  font-weight: bold;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

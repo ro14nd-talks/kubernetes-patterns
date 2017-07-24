@@ -1,0 +1,111 @@
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000080;
+  -webkit-text-size-adjust: none;
+}
+
+pre code,
+pre .subst {
+  color: #0ff;
+}
+
+pre .string,
+pre .ruby .string,
+pre .haskell .type,
+pre .tag .value,
+pre .rules .value,
+pre .rules .value .number,
+pre .preprocessor,
+pre .pragma,
+pre .ruby .symbol,
+pre .ruby .symbol .string,
+pre .built_in,
+pre .django .template_tag,
+pre .django .variable,
+pre .smalltalk .class,
+pre .addition,
+pre .apache .tag,
+pre .apache .cbracket,
+pre .tex .command,
+pre .coffeescript .attribute {
+  color: #ff0;
+}
+
+pre .keyword,
+pre .css .id,
+pre .title,
+pre .type,
+pre .vbscript .built_in,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .xml .tag .title,
+pre .winutils,
+pre .flow,
+pre .change,
+pre .envvar,
+pre .bash .variable,
+pre .tex .special {
+  color: #fff;
+}
+
+pre .comment,
+pre .phpdoc,
+pre .dartdoc,
+pre .javadoc,
+pre .annotation,
+pre .deletion,
+pre .apache .sqbracket,
+pre .tex .formula {
+  color: #888;
+}
+
+pre .number,
+pre .date,
+pre .regexp,
+pre .literal,
+pre .smalltalk .symbol,
+pre .smalltalk .char,
+pre .clojure .attribute {
+  color: #0f0;
+}
+
+pre .decorator,
+pre .django .filter .argument,
+pre .smalltalk .localvars,
+pre .smalltalk .array,
+pre .attr_selector,
+pre .pseudo,
+pre .xml .pi,
+pre .diff .header,
+pre .chunk,
+pre .shebang,
+pre .nginx .built_in,
+pre .prompt {
+  color: #008080;
+}
+
+pre .keyword,
+pre .css .id,
+pre .title,
+pre .type,
+pre .vbscript .built_in,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .winutils,
+pre .flow,
+pre .apache .tag,
+pre .nginx .built_in,
+pre .tex .command,
+pre .tex .special,
+pre .request,
+pre .status {
+  font-weight: bold;
+}

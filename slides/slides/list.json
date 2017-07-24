@@ -1,0 +1,34 @@
+[
+  "title-red.html",
+  "agenda.html",
+  [
+    "kubernetes/title.html",
+    "kubernetes/overview.html"
+  ],
+  [
+    "patterns/title.html",
+    "patterns/intro.html",
+    "patterns/pattern-language.html",
+    "patterns/oop-design-patterns.html",
+    "patterns/kubernetes-patterns.html",
+    "patterns/structure.html"
+  ],
+  [
+    "foundational/title.html",
+    "foundational/overview.html"
+  ],
+  [
+    "behavourial/title.html",
+    "behavourial/overview.html"
+  ],
+  [
+    "structural/title.html",
+    "structural/overview.html"
+  ],
+  [
+    "configurational/title.html",
+    "configurational/overview.html"
+  ],
+  "wrap-up.html",
+  "questions-red.html"
+]
