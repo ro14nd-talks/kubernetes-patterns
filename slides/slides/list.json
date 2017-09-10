@@ -3,7 +3,8 @@
   "agenda.html",
   [
     "kubernetes/title.html",
-    "kubernetes/overview.html"
+    "kubernetes/overview.html",
+    "kubernetes/architecture.html"
   ],
   [
     "patterns/title.html",
@@ -18,16 +19,60 @@
     "foundational/overview.html"
   ],
   [
+    "foundational/automatable/automatable_unit.html",
+    "foundational/automatable/pod.html",
+    "foundational/automatable/rc.html",    
+    "foundational/automatable/rc-diagram.html",    
+    "foundational/automatable/service.html"
+  ],
+  [
+    "foundational/deployment/declarative_deployments.html",
+    "foundational/deployment/deployment.html",
+    "foundational/deployment/rolling.html",
+    "foundational/deployment/fixed.html",
+    "foundational/deployment/canary.html",
+    "foundational/deployment/blue-green.html",
+    "foundational/deployment/summary.html"
+  ],
+  [
     "behavioral/title.html",
     "behavioral/overview.html"
   ],
   [
     "structural/title.html",
     "structural/overview.html"
+  ],  
+  [
+    "structural/initializer/initializer.html",
+    "structural/initializer/schema.html"
+  ],
+  [
+    "structural/sidecar/sidecar.html",
+    "structural/sidecar/schema.html"
+  ],
+  [
+    "structural/ambassador/ambassador.html",
+    "structural/ambassador/schema.html"
+  ],
+  [
+    "structural/adapter/adapter.html",
+    "structural/adapter/schema.html"
   ],
   [
     "configurational/title.html",
     "configurational/overview.html"
+  ],
+  [
+    "configurational/immutable/immutable_configuration.html",
+    "configurational/immutable/container_volumes.html",
+    "configurational/immutable/init_container.html"
+  ],
+  [
+    "configurational/resource/configuration_resource.html"
+  ],
+  [
+    "configurational/template/configuration_template.html",
+    "configurational/template/schema.html"
   ],
   "wrap-up.html",
   "questions-red.html"

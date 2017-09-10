@@ -96,7 +96,8 @@ div.punchline {
 }
 
 .reveal code {
-    line-height: 1.3em
+    line-height: 1.3em;
+    background-color: #ddd;
 }
 
 .shadow {
@@ -145,4 +146,3 @@ iframe.demo {
 /*    font-weight: bold !important; */
     background-color: #3C3C3C;
 }
-

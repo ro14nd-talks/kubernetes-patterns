@@ -3,7 +3,7 @@ module.exports = (grunt) ->
 
     grunt.initConfig
 
-        watch:
+        chokidar:
 
             livereload:
                 options:
@@ -130,7 +130,9 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+    grunt.loadNpmTasks 'grunt-chokidar'
+    grunt.registerTask 'watch',
+        ['chokidar']
 
     # Define default task.
     grunt.registerTask 'default', [
