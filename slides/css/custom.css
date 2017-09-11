@@ -14,6 +14,16 @@ h1.chapter {
     margin-top: 30%;
 }
 
+h1.pattern {
+  font-variant-caps: small-caps !important;
+  text-transform: none !important;
+  border: solid 2px #aaa;
+  border-radius: 5px;
+  text-shadow: 0 0.05em 0.2em rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  text-align: center;
+}
+
 div.box {
     color: white;
     font-size: 2em;
@@ -32,7 +42,7 @@ div.problem {
     border: solid 7px #820000;
     border-radius: 20px;
     padding: 0.3em;
-    margin: 1.0em 0em;
+    margin: 0.6em 0em;
     text-shadow: 0 0.05em 0.2em rgba(0, 0, 0, 0.2);
     text-align: center;
 }

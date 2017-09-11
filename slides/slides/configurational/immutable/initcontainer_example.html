@@ -1,0 +1,23 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<pre><code style="padding: 8px" class="yaml">spec:
+  initContainers:
+  - image: k8spatterns/config-dev:1
+    name: init
+    args:
+    - "/config"
+    volumeMounts:
+    - mountPath: "/config"
+      name: config-directory
+  
+  containers:
+  - image: k8spatterns/demo:1
+    name: demo
+    volumeMounts:
+    - mountPath: "/config"
+      name: config-directory
+  
+  volumes:
+  - name: config-directory
+    emptyDir: {}
+</code>
+</pre>

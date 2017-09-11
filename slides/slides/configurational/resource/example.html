@@ -1,0 +1,25 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<pre style="margin-top: -3%"><code style="padding: 8px" class="yaml">kind: ConfigMap
+metadata:
+  name: spring-boot-config
+data:
+  JAVA_OPTIONS: "-Xmx512m"
+  application.properties: |
+    welcome.message=Hello !!!
+    server.port=8080
+</code>
+</pre>
+<pre><code style="margin-top: -3%; padding: 8px" class="yaml">kind: Pod
+spec:
+  containers:
+  - name: web
+    volumeMounts:
+    - name: config-volume
+      mountPath: /etc/config
+    # ...
+  volumes:
+    - name: config-volume
+      configMap:
+        name: spring-boot-config
+</code>
+</pre>

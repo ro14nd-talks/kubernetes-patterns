@@ -2,6 +2,14 @@
   "title-red.html",
   "agenda.html",
   [
+    "microservice/title.html",
+    "microservice/monolith.html",
+    "microservice/breakdown.html",
+    "microservice/split.html",
+    "microservice/container.html",
+    "microservice/orchestration.html"
+  ],
+  [
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html"
@@ -15,15 +23,22 @@
     "patterns/structure.html"
   ],
   [
-    "foundational/title.html",
-    "foundational/overview.html"
+    "foundational/title.html"
   ],
   [
     "foundational/automatable/automatable_unit.html",
     "foundational/automatable/pod.html",
+    "foundational/automatable/pod_yml.html",
     "foundational/automatable/rc.html",    
     "foundational/automatable/rc-diagram.html",    
-    "foundational/automatable/service.html"
+    "foundational/automatable/service.html",
+    "foundational/automatable/objects.html"
+  ],
+  [
+    "foundational/demand/predictable_demands.html",
+    "foundational/demand/runtime_dependencies.html",
+    "foundational/demand/resource_profiles.html",
+    "foundational/demand/container_resources.html"
   ],
   [
     "foundational/deployment/declarative_deployments.html",
@@ -35,12 +50,7 @@
     "foundational/deployment/summary.html"
   ],
   [
-    "behavioral/title.html",
-    "behavioral/overview.html"
-  ],
-  [
-    "structural/title.html",
-    "structural/overview.html"
+    "structural/title.html"
   ],  
   [
     "structural/initializer/initializer.html",
@@ -59,20 +69,33 @@
     "structural/adapter/schema.html"
   ],
   [
+    "behavioral/title.html"
+  ],
+  [
     "configurational/title.html",
     "configurational/overview.html"
   ],
   [
-    "configurational/immutable/immutable_configuration.html",
-    "configurational/immutable/container_volumes.html",
-    "configurational/immutable/init_container.html"
+    "configurational/envvar/envvar_configuration.html",
+    "configurational/envvar/example.html"
   ],
   [
-    "configurational/resource/configuration_resource.html"
+    "configurational/resource/configuration_resource.html",
+    "configurational/resource/example.html"
   ],
   [
     "configurational/template/configuration_template.html",
-    "configurational/template/schema.html"
+    "configurational/template/schema.html",
+    "configurational/template/discussion.html"
+  ],
+  [
+    "configurational/immutable/immutable_configuration.html",
+    "configurational/immutable/container_volumes.html",
+    "configurational/immutable/flexvolume_example.html",
+    "configurational/immutable/init_container.html",
+    "configurational/immutable/initcontainer_example.html",
+    "configurational/immutable/initcontainer_example_2.html",
+    "configurational/immutable/discussion.html"
   ],
   "wrap-up.html",
   "questions-red.html"

@@ -1,0 +1,22 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<pre><code style="padding: 8px" class="yaml">kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    volumeMounts:
+    - name: test
+      mountPath: /data
+    ports:
+    - containerPort: 80
+  volumes:
+  - name: test
+    flexVolume:
+      driver: "dims.io/docker-flexvol"
+      options:
+        image: "my-container-image"
+        name: "/data-store"
+</code>
+</pre>

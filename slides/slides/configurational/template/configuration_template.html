@@ -1,10 +1,12 @@
-<h1>Configuration Template</h1>
-<div class="problem">
-  How can containerized applications be created with Kubernetes ?
-</div>
+<h1 class="pattern">Configuration Template</h1>
 
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><code>ConfigMap</code> not suitable for large configuration</li>
+  <li>Managing similar configuration</li>
+  <li>Ingredients:
+  <ul>
+    <li>Init-container with template processor and templates</li>
+    <li>Parameters from a <code>ConfigMap</code> Volume</li>
+  </ul>
+  </li>
 </ul>

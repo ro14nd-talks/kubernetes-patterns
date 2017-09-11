@@ -1,0 +1,20 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<pre><code style="padding: 8px" class="yaml">kind: Pod
+spec:
+  containers:
+  - env:
+    - name: DB_HOST
+      value: "prod-database.prod.intranet"
+    - name: DB_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          name: "db-passwords"
+          key: "monogdb.password"
+    - name: DB_USER
+        valueFrom:
+          configMapKeyRef:
+            name: "db-users"
+            key: "mongodb.user"
+    image: acme/bookmark-service:1.0.4
+</code>
+</pre>

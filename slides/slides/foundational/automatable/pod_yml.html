@@ -1,0 +1,18 @@
+<h1>Pod Resource</h1>
+
+<pre><code style="padding: 8px" class="yaml">  kind: Pod
+  metadata:
+    name: pong
+    labels:
+      name: pong
+      version: "1"
+  spec:
+    containers:
+    - image: "rhuss/pong:1"
+      name: pong
+      ports:
+      - containerPort: 8080
+    - image: "rhuss/log-sidecar:2.3"
+      name: log
+</code>
+</pre>

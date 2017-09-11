@@ -1,0 +1,20 @@
+<h1 class="menu-title" style="display: none">Example (Dockerfile)</h1>
+<ul>
+  <li>Dockerfile of init container:</li>
+</ul>
+<pre><code style="padding: 8px" class="dockerfile">FROM busybox
+
+ADD dev.properties /config-src/demo.properties
+# ... add more to /config-src
+
+# Using a shell here in order to resolve wildcards
+ENTRYPOINT [ "sh", "-c", \
+             "cp /config-src/* $1", "--" ]
+</code>
+</pre>
+<ul>
+  <li>Build config image:</li>
+</ul>
+<pre><code style="padding: 8px" class="ash">docker build -t k8spatterns/config-dev:1 .
+</code>
+</pre>
