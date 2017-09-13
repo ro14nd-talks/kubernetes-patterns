@@ -38,7 +38,8 @@
     "foundational/demand/predictable_demands.html",
     "foundational/demand/runtime_dependencies.html",
     "foundational/demand/resource_profiles.html",
-    "foundational/demand/container_resources.html"
+    "foundational/demand/example.html",
+    "foundational/demand/qos.html"
   ],
   [
     "foundational/deployment/declarative_deployments.html",
@@ -69,9 +70,6 @@
     "structural/adapter/schema.html"
   ],
   [
-    "behavioral/title.html"
-  ],
-  [
     "configurational/title.html",
     "configurational/overview.html"
   ],
@@ -93,8 +91,8 @@
     "configurational/immutable/container_volumes.html",
     "configurational/immutable/flexvolume_example.html",
     "configurational/immutable/init_container.html",
-    "configurational/immutable/initcontainer_example.html",
-    "configurational/immutable/initcontainer_example_2.html",
+    "configurational/immutable/initcontainer_example_dockerfile.html",
+    "configurational/immutable/initcontainer_example_resource.html",
     "configurational/immutable/discussion.html"
   ],
   "wrap-up.html",

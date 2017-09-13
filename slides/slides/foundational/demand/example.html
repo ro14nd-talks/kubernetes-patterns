@@ -1,0 +1,18 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<pre><code style="padding: 8px" class="yaml">apiVersion: v1
+kind: Pod
+metadata:
+  name: http-server
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+    resources:
+      requests:
+        cpu: 200m
+        memory: 100Mi
+      limits:
+        cpu: 300m
+        memory: 200Mi
+</code>
+</pre>
