@@ -2,8 +2,18 @@
   "title-red.html",
   "agenda.html",
   [
+    "microservice/title.html",
+    "microservice/monolith.html",
+    "microservice/breakdown.html",
+    "microservice/split.html",
+    "microservice/container.html",
+    "microservice/orchestration.html"
+  ],
+  ]
+  [
     "kubernetes/title.html",
-    "kubernetes/overview.html"
+    "kubernetes/overview.html",
+    "kubernetes/architecture.html"
   ],
   [
     "patterns/title.html",
@@ -20,8 +30,8 @@
     "foundational/automatable/automatable_unit.html",
     "foundational/automatable/pod.html",
     "foundational/automatable/pod_yml.html",
-    "foundational/automatable/rc.html",    
-    "foundational/automatable/rc-diagram.html",    
+    "foundational/automatable/rc.html",
+    "foundational/automatable/rc-diagram.html",
     "foundational/automatable/service.html",
     "foundational/automatable/objects.html"
   ],
@@ -43,7 +53,7 @@
   ],
   [
     "structural/title.html"
-  ],  
+  ],
   [
     "structural/initializer/initializer.html",
     "structural/initializer/schema.html"
