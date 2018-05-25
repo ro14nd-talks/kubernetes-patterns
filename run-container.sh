@@ -1,5 +1,5 @@
 #!/bin/
-tag=devopsgathering2018bochum
+tag=jax2018mainz
 docker run -d \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -p 9000:9000 -p 57575:57575 -p 35729:35729 \
