@@ -1,0 +1,13 @@
+<h1>Example CRD</h1>
+<pre><code style="padding: 20px; margin-top: 50px" class="yaml">apiVersion: monitoring.coreos.com/v1
+kind: Prometheus
+metadata:
+  name: prometheus
+spec:
+  serviceMonitorSelector:
+    matchLabels:
+      team: frontend
+  resources:
+    requests:
+      memory: 400Mi
+</code></pre>

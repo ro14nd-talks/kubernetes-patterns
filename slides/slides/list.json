@@ -2,23 +2,16 @@
   "title-red.html",
   "agenda.html",
   [
-    "microservice/title.html",
-    "microservice/monolith.html",
-    "microservice/breakdown.html",
-    "microservice/split.html",
-    "microservice/container.html",
-    "microservice/orchestration.html"
-  ],
-  [
     "kubernetes/title.html",
-    "kubernetes/overview.html",
-    "kubernetes/architecture.html"
+    "kubernetes/overview.html"
   ],
   [
     "patterns/title.html",
     "patterns/intro.html",
     "patterns/pattern-language.html",
     "patterns/oop-design-patterns.html",
+    "patterns/eai-patterns.html",
+    "patterns/eai-schema.html",
     "patterns/kubernetes-patterns.html",
     "patterns/structure.html"
   ],
@@ -94,6 +87,21 @@
     "configurational/immutable/initcontainer_example_dockerfile.html",
     "configurational/immutable/initcontainer_example_resource.html",
     "configurational/immutable/discussion.html"
+  ],
+  [
+    "advanced/title.html"
+  ],
+  [
+    "advanced/controller/custom.html",
+    "advanced/controller/controller.html",
+    "advanced/controller/categories.html"
+  ],
+  [
+    "advanced/resource/resource.html",
+    "advanced/resource/example_crd.html",
+    "advanced/resource/example_crd_instance.html",
+    "advanced/resource/operators.html",
+    "advanced/resource/spectrum.html"
   ],
   "wrap-up.html",
   "questions-red.html"
