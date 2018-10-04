@@ -1,6 +1,5 @@
 [
   "title-red.html",
-  "agenda.html",
   [
     "kubernetes/title.html",
     "kubernetes/overview.html"
@@ -24,13 +23,6 @@
     "foundational/automatable/rc-diagram.html",
     "foundational/automatable/service.html",
     "foundational/automatable/objects.html"
-  ],
-  [
-    "foundational/demand/predictable_demands.html",
-    "foundational/demand/runtime_dependencies.html",
-    "foundational/demand/resource_profiles.html",
-    "foundational/demand/example.html",
-    "foundational/demand/qos.html"
   ],
   [
     "foundational/deployment/declarative_deployments.html",
@@ -61,32 +53,6 @@
     "structural/adapter/schema.html"
   ],
   [
-    "configurational/title.html",
-    "configurational/overview.html"
-  ],
-  [
-    "configurational/envvar/envvar_configuration.html",
-    "configurational/envvar/example.html"
-  ],
-  [
-    "configurational/resource/configuration_resource.html",
-    "configurational/resource/example.html"
-  ],
-  [
-    "configurational/template/configuration_template.html",
-    "configurational/template/schema.html",
-    "configurational/template/discussion.html"
-  ],
-  [
-    "configurational/immutable/immutable_configuration.html",
-    "configurational/immutable/container_volumes.html",
-    "configurational/immutable/flexvolume_example.html",
-    "configurational/immutable/init_container.html",
-    "configurational/immutable/initcontainer_example_dockerfile.html",
-    "configurational/immutable/initcontainer_example_resource.html",
-    "configurational/immutable/discussion.html"
-  ],
-  [
     "advanced/title.html"
   ],
   [
@@ -101,6 +67,6 @@
     "advanced/resource/operators.html",
     "advanced/resource/spectrum.html"
   ],
-  "patterns/kubernetes-patterns.html",
+  "patterns/kubernetes-patterns-2.html",
   "questions-red.html"
 ]
