@@ -103,6 +103,6 @@
     "advanced/resource/operators.html",
     "advanced/resource/spectrum.html"
   ],
-  "wrap-up.html",
-  "questions-red.html"
+  "questions-red.html",
+  "patterns/kubernetes-patterns.html"
 ]
