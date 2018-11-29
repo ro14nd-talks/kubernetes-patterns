@@ -10,8 +10,6 @@
     "patterns/intro.html",
     "patterns/pattern-language.html",
     "patterns/oop-design-patterns.html",
-    "patterns/eai-patterns.html",
-    "patterns/eai-schema.html",
     "patterns/kubernetes-patterns.html",
     "patterns/structure.html"
   ],
